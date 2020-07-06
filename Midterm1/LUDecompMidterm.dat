@@ -1,0 +1,61 @@
+Enter dimension of square matrix : 
+Enter the desired A  matrix values: 
+
+
+L Matrix is:
+1 0 0 0 
+-1.66667 1 0 0 
+2.66667 -1.1875 1 0 
+-1.33333 0.78125 2.81475e+14 1 
+
+
+U Matrix is:
+3 4 7 9 
+0 10.6667 10.6667 19 
+0 0 1.77636e-15 3.5625 
+0 0 0 -1.00275e+15 
+
+
+L and U multiplied together yields back A:
+3 4 7 9 
+-5 4 -1 4 
+8 -2 6 5 
+-4 3 -0.5 7 
+
+
+Enter b vector values: 
+b[0] = 1
+b[1] = 1
+b[2] = 1
+b[3] = 1
+
+
+Forward Sub to solve: Ly = b for y is: 
+1
+2.66667
+1.5
+-4.22212e+14
+
+
+Backwards Sub to solve Ux=y for x is: 
+2.73684
+2.5
+-3
+0.421053
+
+
+Computing inverse matrix of A
+After forward sub, solution  z[i][j] for Lz=I is: 
+1 -1 -1 -1 
+0 1 -1 -1 
+0 0 1 -1 
+0 0 0 1 
+After Backwards sub, The Inverse of A is: 
+0.333333 -0.09375 -5.6295e+14 9.97253e-16 
+-5.40817e-310 0.09375 -5.6295e+14 9.97253e-16 
+-9.3435e-317 -5.5477e-317 5.6295e+14 9.97253e-16 
+0 0 0 -9.97253e-16 
+
+
+Determinant of A is:
+-57
